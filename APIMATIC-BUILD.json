@@ -27,6 +27,8 @@
       "enableAnalytics": true,
       "enableConsoleCalls": true,
       "useProxyForConsoleCalls": true,
+      "enableHttpVerbsForAllLangs": true,
+      "initialPlatform": "cs_net_standard_lib",
       "languageSettings": {
         "http_curl_v1": {
           "sdkDownloadLink": "",
@@ -220,5 +222,10 @@
         "scriptPath": "./static/scripts/recipes/ConsentFlow.js"
       }
     ]
+  },
+  "apiCopilotConfig": {
+    "key": "8e7f8435-c568-4792-befd-ef2c4fe3ceae",
+    "welcomeMessage": "Welcome to the Wych API!\n\nExplore the following prompts and harness the power of the Wych Developer Portal with API Copilot's assistance!\n\n - `How do i authenticate with the Wych API?` \n - `How can I get the impersonated user token?` \n - `How can i revoke a consent?`",
+    "isEnabled": true
   }
 }

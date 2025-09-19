@@ -11,3 +11,5 @@ toc:
   from: models
 - generate: SDK Infrastructure
   from: sdk-infra
+- page: Need Help❓❓
+  file: contact-us/help.md
